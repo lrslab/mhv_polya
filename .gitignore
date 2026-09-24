@@ -1,0 +1,85 @@
+# Data and generated analysis directories
+/data/
+/inputs/
+/runs/
+/work/
+/results/
+/outputs/
+/barcode_figure_run/
+/advanced_analysis_run/
+/MHV_Multiple_sample/
+/dist/
+/tmp/
+
+# Sequencing data and reference files
+*.pod5
+*.fast5
+*.blow5
+*.slow5
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+*.csi
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.mmi
+*.fna
+*.fna.gz
+*.fa
+*.fa.gz
+*.fasta
+*.fasta.gz
+*.fai
+*.gzi
+*.gtf
+*.gtf.gz
+*.gff
+*.gff.gz
+*.gff3
+*.gff3.gz
+
+# Intermediate tables, arrays and model files
+*.npy
+*.npz
+*.parquet
+*.zarr/
+*.pth
+*.pt
+*.tsv.gz
+*.csv.gz
+
+# Local archives and logs
+*.zip
+*.tar.gz
+*.tgz
+*.log
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+
+# Editor and operating-system files
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+._*
+Thumbs.db

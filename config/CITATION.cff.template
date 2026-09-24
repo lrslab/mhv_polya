@@ -1,0 +1,18 @@
+# Copy to CITATION.cff and complete the release metadata.
+cff-version: 1.2.0
+message: "If you use this analysis code, cite the archived software version."
+type: software
+title: "mhv_polya: Within-read terminal versus poly(A) signal analysis for MHV RNA004"
+version: "REPLACE_WITH_RELEASE_VERSION"
+authors:
+  - family-names: "REPLACE_WITH_AUTHOR_FAMILY_NAME"
+    given-names: "REPLACE_WITH_AUTHOR_GIVEN_NAMES"
+repository-code: "https://github.com/REPLACE_OWNER/mhv_polya"
+license: "REPLACE_WITH_SPDX_LICENSE"
+# doi: "RELEASE_DOI"
+keywords:
+  - direct RNA sequencing
+  - MHV
+  - poly(A)
+  - nanopore
+  - reproducibility

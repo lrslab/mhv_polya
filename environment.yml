@@ -1,0 +1,17 @@
+name: mhv-terminal-nona
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11.15
+  - samtools=1.23
+  - pip
+  - pip:
+      - numpy==2.4.4
+      - pandas==3.0.2
+      - pyarrow==22.0.0
+      - pod5==0.3.44
+      - pysam==0.24.0
+      - scipy==1.17.1
+      - matplotlib==3.11.1

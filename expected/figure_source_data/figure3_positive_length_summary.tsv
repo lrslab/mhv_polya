@@ -1,0 +1,9 @@
+sample_group	sgrna_primary_assignment	terminal_nona_direct_class	n_reads	polya_nt_n	polya_nt_median	polya_nt_q25	polya_nt_q75	read_nt_n	read_nt_median	read_nt_q25	read_nt_q75	gene_label
+MHV-mut	sgRNA4_ORF4	terminal_junction_nonA_like	73	73	58.0	49.590886	68.576628	73	3445.0	3383.0	3468.0	ORF4
+MHV-mut	sgRNA5_ORF5_E	terminal_junction_nonA_like	29	29	54.230438	45.0	68.155341	29	3069.0	2993.0	3097.0	ORF5/E
+MHV-mut	sgRNA6_M	terminal_junction_nonA_like	114	114	57.3525275	43.0319675	72.0	114	2423.5	2360.0	2451.0	M
+MHV-mut	sgRNA7_N	terminal_junction_nonA_like	599	599	50.864652	38.592829	62.0	599	1735.0	1666.0	1760.0	N
+MHV-wt	sgRNA4_ORF4	terminal_junction_nonA_like	39	39	68.0	57.0	80.0	39	3475.0	3462.5	3486.0	ORF4
+MHV-wt	sgRNA5_ORF5_E	terminal_junction_nonA_like	13	13	69.0	50.0	73.0	13	3079.0	3065.0	3095.0	ORF5/E
+MHV-wt	sgRNA6_M	terminal_junction_nonA_like	75	75	65.0	54.0	74.0	75	2454.0	2443.5	2465.5	M
+MHV-wt	sgRNA7_N	terminal_junction_nonA_like	344	344	57.0	44.0	72.0	344	1759.0	1750.0	1769.0	N

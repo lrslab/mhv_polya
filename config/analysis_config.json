@@ -1,0 +1,11 @@
+{
+  "anchor_mode": "warp_raw",
+  "boundary_method": "cnn",
+  "fixed_rna_dwell_samples": 30.7692307692,
+  "right_phase_nt": 0.5,
+  "reference_minimum_polya_nt": 100,
+  "reference_minimum_qscore": 12,
+  "fixed_cutoff_pa": 5,
+  "expected_reference_n": 26997,
+  "expected_reference_median_pa": -10.190704345703125
+}

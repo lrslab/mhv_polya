@@ -1,0 +1,5 @@
+sample_group	polya_length_source	n_reads	fraction_within_group
+MHV-mut	dorado_pt	442	0.5423312883435583
+MHV-mut	warpdemux_rate_scaled_fallback	373	0.45766871165644174
+MHV-wt	dorado_pt	452	0.9596602972399151
+MHV-wt	warpdemux_rate_scaled_fallback	19	0.040339702760084924

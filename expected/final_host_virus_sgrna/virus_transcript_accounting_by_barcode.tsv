@@ -1,0 +1,6 @@
+mapping_barcode	all_total	all_callable	all_nonA_like	unassigned_total	unassigned_callable	unassigned_nonA_like	gRNA_total	gRNA_callable	gRNA_nonA_like	strict_sgRNA_total	strict_sgRNA_callable	strict_sgRNA_nonA_like	total_reconciles	callable_reconciles	nonA_like_reconciles
+bc04	1506	1270	183	1348	1143	164	0	0	0	158	127	19	True	True	True
+bc05	11405	9370	1201	9628	8027	1061	4	2	0	1773	1341	140	True	True	True
+bc06	12182	9799	1415	8782	7272	1078	15	13	4	3385	2514	333	True	True	True
+bc07	17284	14061	2441	13997	11617	2045	12	8	1	3275	2436	395	True	True	True
+bc11	44029	36569	5722	39982	33540	5302	21	13	0	4026	3016	420	True	True	True

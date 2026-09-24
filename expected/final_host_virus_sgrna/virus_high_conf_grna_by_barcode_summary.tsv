@@ -1,0 +1,5 @@
+sample_group	mapping_barcode	sgrna_primary_assignment	n_total	n_callable	callable_fraction	n_terminal_junction_nonA_like	n_A_junction_like	nonA_like_fraction_callable	wilson95_low_descriptive	wilson95_high_descriptive	all_read_lower_bound	median_abs_difference_pa_callable
+MHV-mut	bc07	gRNA_ORF1ab	12	8	0.6666666666666666	1	7	0.125	0.02241749145005667	0.4708881822128535	0.08333333333333333	3.8127098083496094
+MHV-mut	bc11	gRNA_ORF1ab	21	13	0.6190476190476191	0	13	0.0	0.0	0.22809537235419838	0.0	2.3429336547851562
+MHV-wt	bc05	gRNA_ORF1ab	4	2	0.5	0	2	0.0	0.0	0.6576197724933469	0.0	0.66436767578125
+MHV-wt	bc06	gRNA_ORF1ab	15	13	0.8666666666666667	4	9	0.3076923076923077	0.12680703655710515	0.5763065681945096	0.26666666666666666	2.2344512939453125

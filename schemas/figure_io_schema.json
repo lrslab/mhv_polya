@@ -1,0 +1,558 @@
+{
+  "analysis": "barcode_figure",
+  "source_run": "Recorded primary reconstruction, 2026-09-23",
+  "tables": [
+    {
+      "path": "results/host_read_scores.tsv.gz",
+      "internal_path": "work/scores/host_read_scores.parquet",
+      "rows": 82709,
+      "column_count": 30,
+      "columns": [
+        {
+          "name": "read_id",
+          "pandas_dtype": "str",
+          "internal_arrow_type": "large_string",
+          "missing": 0
+        },
+        {
+          "name": "mapping_barcode",
+          "pandas_dtype": "str",
+          "internal_arrow_type": "large_string",
+          "missing": 0
+        },
+        {
+          "name": "sample_group",
+          "pandas_dtype": "str",
+          "internal_arrow_type": "large_string",
+          "missing": 0
+        },
+        {
+          "name": "mapping_group",
+          "pandas_dtype": "str",
+          "internal_arrow_type": "large_string",
+          "missing": 0
+        },
+        {
+          "name": "warpdemux_barcode",
+          "pandas_dtype": "str",
+          "internal_arrow_type": "large_string",
+          "missing": 0
+        },
+        {
+          "name": "barcode_mapping_consistent",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 0
+        },
+        {
+          "name": "boundary_method",
+          "pandas_dtype": "str",
+          "internal_arrow_type": "large_string",
+          "missing": 0
+        },
+        {
+          "name": "polya_start",
+          "pandas_dtype": "int64",
+          "internal_arrow_type": "int64",
+          "missing": 0
+        },
+        {
+          "name": "polya_end",
+          "pandas_dtype": "int64",
+          "internal_arrow_type": "int64",
+          "missing": 0
+        },
+        {
+          "name": "actual_polya_len_samples",
+          "pandas_dtype": "int32",
+          "internal_arrow_type": "int32",
+          "missing": 0
+        },
+        {
+          "name": "dorado_mean_qscore",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 0
+        },
+        {
+          "name": "read_nt_len",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 0
+        },
+        {
+          "name": "raw_pod5_signal_found",
+          "pandas_dtype": "int8",
+          "internal_arrow_type": "int8",
+          "missing": 0
+        },
+        {
+          "name": "warp_tail_window_complete",
+          "pandas_dtype": "int8",
+          "internal_arrow_type": "int8",
+          "missing": 0
+        },
+        {
+          "name": "terminal_nona_terminal_left_array_index",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 0
+        },
+        {
+          "name": "terminal_nona_model_right_array_index",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 0
+        },
+        {
+          "name": "terminal_nona_rna_dwell_samples_per_nt",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 0
+        },
+        {
+          "name": "terminal_window_mean_centered_pa",
+          "pandas_dtype": "float32",
+          "internal_arrow_type": "float",
+          "missing": 0
+        },
+        {
+          "name": "stableA_window_mean_centered_pa",
+          "pandas_dtype": "float32",
+          "internal_arrow_type": "float",
+          "missing": 0
+        },
+        {
+          "name": "stableA_window_mad_pa",
+          "pandas_dtype": "float32",
+          "internal_arrow_type": "float",
+          "missing": 0
+        },
+        {
+          "name": "terminal_minus_stableA_pa",
+          "pandas_dtype": "float32",
+          "internal_arrow_type": "float",
+          "missing": 0
+        },
+        {
+          "name": "pooled_long_host_A_DNA_reference_pa",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 0
+        },
+        {
+          "name": "terminal_nona_fixed_cutoff_pa",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 0
+        },
+        {
+          "name": "terminal_nona_signed_difference_pa",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 18853
+        },
+        {
+          "name": "terminal_nona_abs_difference_pa",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 18853
+        },
+        {
+          "name": "eligible_terminal_nona_direct",
+          "pandas_dtype": "int8",
+          "internal_arrow_type": "int8",
+          "missing": 0
+        },
+        {
+          "name": "terminal_nona_direct_qc_status",
+          "pandas_dtype": "str",
+          "internal_arrow_type": "large_string",
+          "missing": 0
+        },
+        {
+          "name": "terminal_junction_nonA_like",
+          "pandas_dtype": "boolean",
+          "internal_arrow_type": "bool",
+          "missing": 18853
+        },
+        {
+          "name": "terminal_nona_direct_class",
+          "pandas_dtype": "str",
+          "internal_arrow_type": "large_string",
+          "missing": 0
+        },
+        {
+          "name": "long_host_reference_member",
+          "pandas_dtype": "int8",
+          "internal_arrow_type": "int8",
+          "missing": 0
+        }
+      ],
+      "reference_path": "final_primary/host_terminal_nona_direct_scores.parquet"
+    },
+    {
+      "path": "results/mhv_read_scores.tsv.gz",
+      "internal_path": "work/scores/mhv_read_scores.parquet",
+      "rows": 86406,
+      "column_count": 30,
+      "columns": [
+        {
+          "name": "read_id",
+          "pandas_dtype": "str",
+          "internal_arrow_type": "large_string",
+          "missing": 0
+        },
+        {
+          "name": "mapping_barcode",
+          "pandas_dtype": "str",
+          "internal_arrow_type": "large_string",
+          "missing": 0
+        },
+        {
+          "name": "sample_group",
+          "pandas_dtype": "str",
+          "internal_arrow_type": "large_string",
+          "missing": 0
+        },
+        {
+          "name": "mapping_group",
+          "pandas_dtype": "str",
+          "internal_arrow_type": "large_string",
+          "missing": 0
+        },
+        {
+          "name": "warpdemux_barcode",
+          "pandas_dtype": "str",
+          "internal_arrow_type": "large_string",
+          "missing": 0
+        },
+        {
+          "name": "barcode_mapping_consistent",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 0
+        },
+        {
+          "name": "boundary_method",
+          "pandas_dtype": "str",
+          "internal_arrow_type": "large_string",
+          "missing": 0
+        },
+        {
+          "name": "polya_start",
+          "pandas_dtype": "int64",
+          "internal_arrow_type": "int64",
+          "missing": 0
+        },
+        {
+          "name": "polya_end",
+          "pandas_dtype": "int64",
+          "internal_arrow_type": "int64",
+          "missing": 0
+        },
+        {
+          "name": "actual_polya_len_samples",
+          "pandas_dtype": "int32",
+          "internal_arrow_type": "int32",
+          "missing": 0
+        },
+        {
+          "name": "dorado_mean_qscore",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 0
+        },
+        {
+          "name": "read_nt_len",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 0
+        },
+        {
+          "name": "raw_pod5_signal_found",
+          "pandas_dtype": "int8",
+          "internal_arrow_type": "int8",
+          "missing": 0
+        },
+        {
+          "name": "warp_tail_window_complete",
+          "pandas_dtype": "int8",
+          "internal_arrow_type": "int8",
+          "missing": 0
+        },
+        {
+          "name": "terminal_nona_terminal_left_array_index",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 0
+        },
+        {
+          "name": "terminal_nona_model_right_array_index",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 0
+        },
+        {
+          "name": "terminal_nona_rna_dwell_samples_per_nt",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 0
+        },
+        {
+          "name": "terminal_window_mean_centered_pa",
+          "pandas_dtype": "float32",
+          "internal_arrow_type": "float",
+          "missing": 0
+        },
+        {
+          "name": "stableA_window_mean_centered_pa",
+          "pandas_dtype": "float32",
+          "internal_arrow_type": "float",
+          "missing": 0
+        },
+        {
+          "name": "stableA_window_mad_pa",
+          "pandas_dtype": "float32",
+          "internal_arrow_type": "float",
+          "missing": 0
+        },
+        {
+          "name": "terminal_minus_stableA_pa",
+          "pandas_dtype": "float32",
+          "internal_arrow_type": "float",
+          "missing": 0
+        },
+        {
+          "name": "pooled_long_host_A_DNA_reference_pa",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 0
+        },
+        {
+          "name": "terminal_nona_fixed_cutoff_pa",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 0
+        },
+        {
+          "name": "terminal_nona_signed_difference_pa",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 15337
+        },
+        {
+          "name": "terminal_nona_abs_difference_pa",
+          "pandas_dtype": "float64",
+          "internal_arrow_type": "double",
+          "missing": 15337
+        },
+        {
+          "name": "eligible_terminal_nona_direct",
+          "pandas_dtype": "int8",
+          "internal_arrow_type": "int8",
+          "missing": 0
+        },
+        {
+          "name": "terminal_nona_direct_qc_status",
+          "pandas_dtype": "str",
+          "internal_arrow_type": "large_string",
+          "missing": 0
+        },
+        {
+          "name": "terminal_junction_nonA_like",
+          "pandas_dtype": "boolean",
+          "internal_arrow_type": "bool",
+          "missing": 15337
+        },
+        {
+          "name": "terminal_nona_direct_class",
+          "pandas_dtype": "str",
+          "internal_arrow_type": "large_string",
+          "missing": 0
+        },
+        {
+          "name": "long_host_reference_member",
+          "pandas_dtype": "int8",
+          "internal_arrow_type": "int8",
+          "missing": 0
+        }
+      ],
+      "reference_path": "final_primary/mhv_reads_terminal_nona_direct.parquet"
+    },
+    {
+      "path": "figure6A/data/figure6A_overall_virus_barcode_summary.tsv",
+      "rows": 4,
+      "column_count": 13,
+      "columns": [
+        {
+          "name": "sample_group",
+          "text_read_dtype": "str",
+          "missing": 0
+        },
+        {
+          "name": "display_group",
+          "text_read_dtype": "str",
+          "missing": 0
+        },
+        {
+          "name": "mapping_barcode",
+          "text_read_dtype": "str",
+          "missing": 0
+        },
+        {
+          "name": "n_total_mhv",
+          "text_read_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "n_callable",
+          "text_read_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "n_uncallable",
+          "text_read_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "callable_fraction",
+          "text_read_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "n_A_junction_like",
+          "text_read_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "n_terminal_junction_nonA_like",
+          "text_read_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "A_junction_like_fraction",
+          "text_read_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "terminal_junction_nonA_like_fraction",
+          "text_read_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "wilson95_low_descriptive",
+          "text_read_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "wilson95_high_descriptive",
+          "text_read_dtype": "float64",
+          "missing": 0
+        }
+      ]
+    },
+    {
+      "path": "figure6A/data/figure6A_overall_virus_read_level.tsv.gz",
+      "rows": 84900,
+      "column_count": 19,
+      "columns": [
+        {
+          "name": "read_id",
+          "text_read_dtype": "str",
+          "missing": 0
+        },
+        {
+          "name": "mapping_barcode",
+          "text_read_dtype": "str",
+          "missing": 0
+        },
+        {
+          "name": "sample_group",
+          "text_read_dtype": "str",
+          "missing": 0
+        },
+        {
+          "name": "display_group",
+          "text_read_dtype": "str",
+          "missing": 0
+        },
+        {
+          "name": "mapping_group",
+          "text_read_dtype": "str",
+          "missing": 0
+        },
+        {
+          "name": "barcode_mapping_consistent",
+          "text_read_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "boundary_method",
+          "text_read_dtype": "str",
+          "missing": 0
+        },
+        {
+          "name": "eligible_terminal_nona_direct",
+          "text_read_dtype": "int64",
+          "missing": 0
+        },
+        {
+          "name": "terminal_nona_direct_qc_status",
+          "text_read_dtype": "str",
+          "missing": 0
+        },
+        {
+          "name": "terminal_window_mean_centered_pa",
+          "text_read_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "stableA_window_mean_centered_pa",
+          "text_read_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "terminal_minus_stableA_pa",
+          "text_read_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "pooled_long_host_A_DNA_reference_pa",
+          "text_read_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "terminal_nona_fixed_cutoff_pa",
+          "text_read_dtype": "float64",
+          "missing": 0
+        },
+        {
+          "name": "terminal_nona_signed_difference_pa",
+          "text_read_dtype": "float64",
+          "missing": 15101
+        },
+        {
+          "name": "terminal_nona_abs_difference_pa",
+          "text_read_dtype": "float64",
+          "missing": 15101
+        },
+        {
+          "name": "terminal_junction_nonA_like",
+          "text_read_dtype": "object",
+          "missing": 15101
+        },
+        {
+          "name": "terminal_nona_direct_class",
+          "text_read_dtype": "str",
+          "missing": 0
+        },
+        {
+          "name": "figure_signal_class",
+          "text_read_dtype": "str",
+          "missing": 0
+        }
+      ]
+    }
+  ]
+}

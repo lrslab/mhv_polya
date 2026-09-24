@@ -1,0 +1,3 @@
+sample_group	display_group	n_total_mhv	n_callable	n_uncallable	callable_fraction	n_A_junction_like	n_terminal_junction_nonA_like	A_junction_like_fraction	terminal_junction_nonA_like_fraction	wilson95_low_descriptive	wilson95_high_descriptive
+MHV-wt	WT	23587	19169	4418	0.812693432823	16553	2616	0.863529657259	0.136470342741	0.131683457562	0.14140290108
+MHV-mut	Mut	61313	50630	10683	0.825762888784	42467	8163	0.83877147936	0.16122852064	0.158051019857	0.164457424858
